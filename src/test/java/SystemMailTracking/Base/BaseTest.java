@@ -52,11 +52,13 @@ public class BaseTest {
 
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("******In exception********" + e.printStackTrace());
+			System.out.println("****** In BaseTest Init exception********" + e.printStackTrace());
 		}
 		// init the xls file
 		// how do i come to know the suite ?
-		System.out.println(envProp.getProperty(suiteName + "_xls"));
+
+		System.out.println(" **** suitName Printing **** "envProp.getProperty(suiteName + "_xls"));
+		System.out.println(" **** suitName Printing End **** "));
 
 		xls = new Xls_Reader(envProp.getProperty(suiteName + "_xls"));
 

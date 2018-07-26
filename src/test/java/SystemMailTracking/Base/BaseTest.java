@@ -52,7 +52,7 @@ public class BaseTest {
 
 		} catch (Exception e) {
 			e.printStackTrace();
-			//System.out.println("******In exception********" + e.printStackTrace());
+			System.out.println("******In exception********" + e.printStackTrace());
 		}
 		// init the xls file
 		// how do i come to know the suite ?

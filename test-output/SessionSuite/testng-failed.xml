@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SessionSuite]">
+  <test thread-count="5" name="ContinueToPayment(failed)">
+    <classes>
+      <class name="SystemMailTracking.testcases.SessionSuite.ContinueToPaymentTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="ContinueToPayment" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- SystemMailTracking.testcases.SessionSuite.ContinueToPaymentTest -->
+    </classes>
+  </test> <!-- ContinueToPayment(failed) -->
+</suite> <!-- Failed suite [SessionSuite] -->

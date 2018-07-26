@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SessionSuite" >
+<test name="Login Test">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="ForgotPassword">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.ForgotPasswordTestCase" ></class>  
+    </classes>
+</test>
+
+<test name="CreateNewAccount">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.CreateNewAccountTest" ></class>  
+    </classes>
+</test>
+
+<test name="ContinueToPayment">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.ContinueToPaymentTest" ></class>  
+    </classes>
+</test>
+
+<test name="deletepaiduser">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.deletepaiduser" ></class>  
+    </classes>
+</test>
+
+<test name="deleteTrialuser">
+    <classes>
+        <class name="SystemMailTracking.testcases.SessionSuite.deleteTrialuser" ></class>  
+    </classes>
+</test>
+
+</suite>

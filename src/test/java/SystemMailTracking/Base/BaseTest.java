@@ -57,8 +57,9 @@ public class BaseTest {
 		// how do i come to know the suite ?
         System.out.println(" **** suitName Printing **** ");
         System.out.println(suiteName);
+        System.out.println(envProp.getProperty("SessionSuite_xls"));
         System.out.println(" **** suitName Property Start **** ");
-		System.out.println(envProp.getProperty(suiteName + "_xls"));
+		//System.out.println(envProp.getProperty(suiteName + "_xls"));
 		System.out.println(" **** suitName Property End **** ");
 
 		xls = new Xls_Reader(envProp.getProperty(suiteName + "_xls"));

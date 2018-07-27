@@ -63,8 +63,8 @@ public class BaseTest {
 		System.out.println(envProp.getProperty(suiteName + "_xls"));
 		System.out.println(" **** suitName Property End **** ");
 
-		//xls = new Xls_Reader(envProp.getProperty(suiteName + "_xls"));
-		xls = new Xls_Reader(envProp.getProperty("SessionSuite_xls"));
+		xls = new Xls_Reader(envProp.getProperty(suiteName + "_xls"));
+		//xls = new Xls_Reader(envProp.getProperty("SessionSuite_xls"));
 		
 		System.out.println(xls);
 

@@ -96,6 +96,7 @@ public class BaseTest {
 		// i can use xls file object to read data
 		System.out.println("Inside data Provider " + method.getName());
 		testName = method.getName();
-		return DataUtil.getTestData(testName, xls);
+		//return DataUtil.getTestData(testName, xls);
+		return 'Y';
 	}
 }

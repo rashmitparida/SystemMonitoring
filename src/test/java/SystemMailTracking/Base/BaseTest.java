@@ -41,6 +41,9 @@ public class BaseTest {
 		envProp = new Properties();
 		// init prop file
 		try {
+			System.out.println("***************************************Started***********************);
+			System.out.println(System.getProperty("user.dir")
+							+ "//src//test//resources//env.properties");
 			FileInputStream fs = new FileInputStream(
 					System.getProperty("user.dir")
 							+ "//src//test//resources//env.properties");
